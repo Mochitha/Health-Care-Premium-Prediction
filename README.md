@@ -10,6 +10,7 @@ Click below to access the deployed Streamlit app:
 
 👉 Launch the App https://health-care-premium-prediction.streamlit.app/
 
+
 📁 Project Structure
  ```commandline
 ├── artifacts/                    # Directory for serialized models and scalers
@@ -30,6 +31,7 @@ Click below to access the deployed Streamlit app:
 To improve prediction accuracy, separate models and scalers were trained and saved based on user segmentation (e.g., young vs. rest). Linear Regressor model is used for the young category, and XGBoost Regressor for the rest, and model performance was validated using standard regression metrics.
 
 ⚡ Quick Start
+
 ## Setup Instructions
 
 1. Clone the repository:
