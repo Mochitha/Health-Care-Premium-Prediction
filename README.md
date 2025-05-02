@@ -32,17 +32,17 @@ To improve prediction accuracy, separate models and scalers were trained and sav
 ⚡ Quick Start
 ## Setup Instructions
 
-Clone the repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/Mochitha/health-care-premium-prediction.git
 cd health-care-premium-prediction
  ```
-Install dependencies:
+2. Install dependencies:
 ```commandline
 pip install -r requirements.txt
  ```
 
-Run the Streamlit app:
+3. Run the Streamlit app:
 ```commandline
 streamlit run main.py
 ```
