@@ -21,7 +21,7 @@ Click below to access the deployed Streamlit app:
 👉 Launch the App
 
 📁 Project Structure
-
+ ```commandline
 ├── artifacts/                    # Directory for serialized models and scalers
 │   ├── model_rest.joblib        # Model for the general population
 │   ├── model_young.joblib       # Model for younger users
@@ -33,7 +33,7 @@ Click below to access the deployed Streamlit app:
 ├── main.py                      # Main Streamlit app entry point
 ├── prediction_helper.py         # Helper script for prediction logic
 └── requirements.txt             # Python dependencies
-
+```
 🛠️ Tech Stack
 
 Python
@@ -58,13 +58,14 @@ git clone https://github.com/your-username/health-care-premium-prediction.git
 cd health-care-premium-prediction
 
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+ ```
+```commandline
 Run the Streamlit app:
 
 streamlit run main.py
-
+```
 📬 Feedback
 
 Feel free to fork the repo, raise issues, or contribute to improve the project.
