@@ -1,21 +1,8 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/24c99565-2599-469c-948d-4d88c3d6fc28" width="600"/>
+  <img src="https://github.com/user-attachments/assets/24c99565-2599-469c-948d-4d88c3d6fc28" width="500"/>
 </div>
 
-
-This project predicts individual health insurance premium costs based on user inputs such as age, BMI, smoking status, number of dependents, region, etc. It is designed to provide real-time insights using a simple and interactive interface.
-
-🔧 Features
-
-Predicts health insurance premiums using a trained regression model
-
-Streamlit-based web interface for easy interaction
-
-Accepts key health and demographic inputs
-
-Instant prediction results with a user-friendly UI
-
-Deployed on Streamlit Cloud
+This project uses a regression model to predict individual health insurance premiums based on inputs like age, BMI, smoking status, dependents, region, etc. Built with Streamlit, it offers a clean, interactive UI for real-time predictions and is deployed on Streamlit Cloud.
 
 🚀 Try the Live App
 
@@ -40,10 +27,9 @@ Click below to access the deployed Streamlit app:
 
 📊 Model Info
 
-To improve prediction accuracy, separate models and scalers were trained and saved based on user segmentation (e.g., young vs. rest). Linear regression techniques were used, and model performance was validated using standard regression metrics.
+To improve prediction accuracy, separate models and scalers were trained and saved based on user segmentation (e.g., young vs. rest). Linear Regressor model is used for the young category, and XGBoost Regressor for the rest, and model performance was validated using standard regression metrics.
 
 ⚡ Quick Start
-
 ## Setup Instructions
 
 Clone the repository:
