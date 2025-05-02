@@ -1,4 +1,4 @@
-![White and Blue Medical Care Facebook Post](https://github.com/user-attachments/assets/24c99565-2599-469c-948d-4d88c3d6fc28)
+<img src="https://github.com/user-attachments/assets/24c99565-2599-469c-948d-4d88c3d6fc28" width="400"/>
 
 This project predicts individual health insurance premium costs based on user inputs such as age, BMI, smoking status, number of dependents, region, etc. It is designed to provide real-time insights using a simple and interactive interface.
 
