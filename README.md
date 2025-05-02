@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/24c99565-2599-469c-948d-4d88c3d6fc28" width="500"/>
 </div>
 
-This project uses a regression model to predict individual health insurance premiums based on inputs like age, BMI, smoking status, dependents, region, etc. Built with Streamlit, it offers a clean, interactive UI for real-time predictions and is deployed on Streamlit Cloud.
+This project uses  regression models to predict individual health insurance premiums based on inputs like age, BMI, smoking status, dependents, region, etc. Built with Streamlit, it offers a clean, interactive UI for real-time predictions and is deployed on Streamlit Cloud.
 
 🚀 Try the Live App
 
